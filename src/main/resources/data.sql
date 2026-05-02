@@ -1,0 +1,21 @@
+INSERT INTO author (id, name, email) VALUES (1, 'J.K. Rowling', 'jk@example.com');
+INSERT INTO author (id, name, email) VALUES (2, 'George R.R. Martin', 'grrm@example.com');
+INSERT INTO author (id, name, email) VALUES (3, 'J.R.R. Tolkien', 'jrrt@example.com');
+INSERT INTO author (id, name, email) VALUES (4, 'Stephen King', 'sk@example.com');
+INSERT INTO author (id, name, email) VALUES (5, 'Agatha Christie', 'ac@example.com');
+INSERT INTO author (id, name, email) VALUES (6, 'Isaac Asimov', 'ia@example.com');
+INSERT INTO author (id, name, email) VALUES (7, 'Arthur C. Clarke', 'acc@example.com');
+INSERT INTO author (id, name, email) VALUES (8, 'Frank Herbert', 'fh@example.com');
+INSERT INTO author (id, name, email) VALUES (9, 'Jane Austen', 'ja@example.com');
+INSERT INTO author (id, name, email) VALUES (10, 'Mark Twain', 'mt@example.com');
+
+INSERT INTO book (id, title, isbn, author_id) VALUES (1, 'Harry Potter and the Sorcerers Stone', '978-0747532699', 1);
+INSERT INTO book (id, title, isbn, author_id) VALUES (2, 'A Game of Thrones', '978-0553103540', 2);
+INSERT INTO book (id, title, isbn, author_id) VALUES (3, 'The Fellowship of the Ring', '978-0618260225', 3);
+INSERT INTO book (id, title, isbn, author_id) VALUES (4, 'The Shining', '978-0385121675', 4);
+INSERT INTO book (id, title, isbn, author_id) VALUES (5, 'And Then There Were None', '978-0007136834', 5);
+INSERT INTO book (id, title, isbn, author_id) VALUES (6, 'Foundation', '978-0553293357', 6);
+INSERT INTO book (id, title, isbn, author_id) VALUES (7, '2001: A Space Odyssey', '978-0451452733', 7);
+INSERT INTO book (id, title, isbn, author_id) VALUES (8, 'Dune', '978-0441172719', 8);
+INSERT INTO book (id, title, isbn, author_id) VALUES (9, 'Pride and Prejudice', '978-0141439518', 9);
+INSERT INTO book (id, title, isbn, author_id) VALUES (10, 'The Adventures of Tom Sawyer', '978-0143039563', 10);
